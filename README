@@ -1,0 +1,10 @@
+this plugin animates an object with an pulsate effect using the jquery animate function.
+
+
+$("#button").limePulse({
+	effectDuration: //duration for zooming in ms
+	smallDuration: //duration of the small object in ms
+	bigDuration: //duration of the big object in ms
+	easing: //use your favourite jQuery Easing
+	scale: //scale size in px
+});
